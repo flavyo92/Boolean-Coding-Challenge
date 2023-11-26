@@ -1,0 +1,79 @@
+*{
+    font-size: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: 100vw 130vh;
+    
+}
+
+main{
+    width: 60%;
+    height: 32.5rem;
+    background-color: rgba(0, 0, 0, 0.412);
+    margin-top: 3%;
+    border-radius: 0.8rem;
+    text-align: center;
+}
+
+img{
+    display: block;
+    width: 20%;
+    position: relative;
+    top: 2.3rem;
+}
+
+main strong:first-child{
+    color: rgb(2, 254, 40);
+    font-size: 1.5rem;
+    position: relative;
+    top: 2.4rem;
+}
+
+.pulsanti{
+    background-color: rgb(2, 254, 40);
+    width: 90%;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    position: relative;
+    top: 2.5rem;
+}
+
+.first.monopattino{
+    color: white;
+    text-align: left;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+.monopattino{
+    color: white;
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.first.charge{
+    background-color: rgb(254, 186, 58);
+    width: 30%;
+    margin-left: 5%;
+    border-radius: 0.2rem;
+}
+
+.second.charge{
+    background-color: rgb(2, 181, 17);
+    width: 50%;
+    margin-left: 5%;
+    border-radius: 0.2rem;
+}
+
+.third.charge{
+    background-color: rgb(236, 53, 102);
+    width: 13%;
+    margin-left: 5%;
+    border-radius: 0.2rem; 
+}
